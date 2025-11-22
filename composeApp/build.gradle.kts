@@ -19,6 +19,7 @@ kotlin {
         androidMain.dependencies {
             implementation(compose.preview)
             implementation(libs.androidx.activity.compose)
+                    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json")
         }
         commonMain.dependencies {
             implementation(compose.runtime)
